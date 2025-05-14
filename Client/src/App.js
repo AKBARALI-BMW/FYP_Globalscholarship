@@ -61,7 +61,7 @@ function App() {
           {/* Redirect Unknown */}
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
-        <Footer />
+      
       </div>
     </Router>
   );
